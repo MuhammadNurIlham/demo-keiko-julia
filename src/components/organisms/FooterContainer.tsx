@@ -53,7 +53,7 @@ const FooterContainer = () => {
       </div>
       <div className="p-4 text-center">
         <p className="text-center text-sm md:text-base text-gray-500/80">
-          Copyright {new Date().getFullYear()} © Kanciana Trip | All Right
+          Copyright {new Date().getFullYear()} © Keiko Julia Jewelry | All Right
           Reserved.
         </p>
       </div>

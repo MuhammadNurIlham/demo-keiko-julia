@@ -22,7 +22,7 @@ export async function generateMetadata({
   params: Params;
 }): Promise<Metadata> {
   try {
-    const { id } = await params;
+    const { id } = params;
     const product = await apiFetch<ProductResponse>(`/products/${id}`, {
       // ✅ Tambahkan ini agar metadata fetch tidak error
       next: { revalidate: 60 },
@@ -58,7 +58,7 @@ export default async function ProductDetailPage({
 }: {
   params: Params;
 }) {
-  const { id } = await params;
+  const { id } = params;
   const product = await apiFetch<ProductResponse>(`/products/${id}`);
 
   return (

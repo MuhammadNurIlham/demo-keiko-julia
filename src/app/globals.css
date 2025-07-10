@@ -123,6 +123,12 @@
 
 /* New Overwrite Custom Colors */
 @theme {
+  --color-gold-keiko: #eab133;
+  --color-gold-keiko-dark: #c9942c;
+  --color-gold-keiko-darker: #a87825;
+  --color-gold-keiko-light: #f0c057;
+  --color-gold-keiko-lighter: #f6d680;
+  --color-gold-keiko-very-light: #fcf1cd;
   --color-kancianaBlue: #2563eb;
   --color-kancianaDestructive: #dc2626;
   --color-kancianaGrey: #3c3c43; /* Can custom with opacity */
@@ -143,100 +149,6 @@
   .shad-gray-btn {
     @apply bg-kancianaGrey text-white border border-kancianaGrey cursor-pointer;
   }
-
-  /* .file-upload {
-    @apply text-12-regular flex cursor-pointer  flex-col items-center justify-center gap-3 rounded-md border border-dashed border-dark-500 bg-light-300 p-5 my-4;
-  }
-
-  .file-upload_label {
-    @apply flex flex-col justify-center gap-2 text-center text-dark-600;
-  } */
-
-  /* .shad-input-label {
-    @apply text-14-medium text-black-700;
-  }
-
-  .shad-input {
-    @apply bg-light-300 placeholder:text-dark-600 border-dark-500 h-11 focus-visible:ring-0 focus-visible:ring-offset-0;
-  }
-
-  .shad-input-icon {
-    @apply bg-dark-400 placeholder:text-dark-600 border-dark-500 h-11 focus-visible:ring-0 focus-visible:ring-offset-0;
-  }
-
-  .shad-textArea {
-    @apply bg-light-300 placeholder:text-dark-600 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0;
-  }
-
-  .shad-combobox-item {
-    @apply data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50;
-  }
-
-  .shad-combobox-trigger {
-    @apply h-11;
-  }
-
-  .shad-select-trigger {
-    @apply bg-light-300  placeholder:text-dark-600 border-dark-500 h-11 focus:ring-0 focus:ring-offset-0;
-  }
-
-  .shad-select-content {
-    @apply bg-light-300 border-dark-500;
-  }
-
-  .shad-dialog {
-    @apply bg-light-300 border-dark-500;
-  }
-
-  .shad-dialog button {
-    @apply focus:ring-0 focus:ring-offset-0 focus-visible:border-none focus-visible:outline-none focus-visible:ring-transparent focus-visible:ring-offset-0;
-  }
-
-  .shad-error {
-    @apply text-red-400;
-  }
-
-  .shad-table {
-    @apply rounded-lg overflow-hidden;
-  }
-
-  .shad-table-row-header {
-    @apply border-b border-dark-400 text-light-200 hover:bg-transparent;
-  }
-
-  .shad-table-row {
-    @apply border-b border-dark-400 text-light-200;
-  }
-
-  .shad-otp {
-    @apply w-full flex justify-between;
-  }
-
-  .shad-otp-slot {
-    @apply text-36-bold justify-center flex border border-dark-500 rounded-lg size-16 gap-4;
-  }
-
-  .shad-alert-dialog {
-    @apply space-y-5 bg-dark-400 border-dark-500 outline-none;
-  }
-
-  .shad-sheet-content button {
-    @apply top-2 focus:ring-0 focus:ring-offset-0 focus-visible:border-none focus-visible:outline-none focus-visible:ring-transparent focus-visible:ring-offset-0;
-  }
-
-  .radio-group {
-    @apply flex h-full flex-1 items-center gap-2 rounded-md border border-dashed border-dark-500 p-3;
-  } */
-
-  /* =====  REACT PHONE NUMBER INPUT OVERRIDES */
-  /* .input-phone {
-    @apply mt-2 h-11 rounded-md px-3 text-sm border bg-light-300 placeholder:text-dark-600 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0;
-  } */
-
-  /* =====  REACT DATE PICKER OVERRIDES */
-  /* .date-picker {
-    @apply overflow-hidden border-transparent w-full placeholder:text-dark-600  h-11 text-14-medium rounded-md px-3 outline-none;
-  } */
 
   .react-datepicker-wrapper.date-picker {
     display: flex;
